@@ -30,10 +30,10 @@ const PREDICCIONES = {
 }
 
 const MEXICO_PATH = [
-  {ronda:'8vos de Final', rival:'England',  fecha:'Jul 5',  p_ganar:62.1, p_rival:37.9, p_llegar:62.1},
-  {ronda:'Cuartos',       rival:'Brazil',   fecha:'Jul 9',  p_ganar:59.5, p_rival:40.5, p_llegar:36.9},
-  {ronda:'Semifinal',     rival:'France',   fecha:'Jul 14', p_ganar:47.8, p_rival:52.2, p_llegar:17.7},
-  {ronda:'Final',         rival:'Portugal', fecha:'Jul 19', p_ganar:55.2, p_rival:44.8, p_llegar:9.7},
+  {ronda:'8vos de Final', rival:'England',   fecha:'Jul 5',  p_ganar:62.1, p_rival:37.9, p_llegar:62.1},
+  {ronda:'Cuartos',       rival:'Brazil',    fecha:'Jul 9',  p_ganar:59.5, p_rival:40.5, p_llegar:36.9},
+  {ronda:'Semifinal',     rival:'Argentina', fecha:'Jul 14', p_ganar:51.4, p_rival:48.6, p_llegar:19.0},
+  {ronda:'Final',         rival:'Portugal',  fecha:'Jul 19', p_ganar:55.2, p_rival:44.8, p_llegar:10.5},
 ]
 
 function ProbabilityBars({home,away,data}){
